@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfo"
+    android:background="@color/colorPrimary">
+    <!--android:background="@drawable/background">-->
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profileimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:layout_gravity="center"
+            android:paddingTop="40dp"
+            />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/buttonstyle"
+            android:text=" Choose profile image"
+            android:textSize="10dp" />
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Save image"
+            android:textSize="15dp" />
+
+        <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittext5"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:hint="Enter Your Name"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittextstyle"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittext7"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:hint="Enter Your Location"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittextstyle"/>
+
+        <EditText
+            android:id="@+id/edittext8"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittextstyle"
+            android:hint="Enter Your College Name"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/edittextpno"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittextstyle"
+            android:hint="Enter Your Mobile number"
+            android:inputType="phone"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="20dp" />
+        <Button
+            android:layout_marginTop="15dp"
+            android:id="@+id/button3"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Save Info"
+            android:textSize="25dp"
+            android:background="@drawable/buttonstyle"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

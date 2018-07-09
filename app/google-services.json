@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "407315892827",
+    "firebase_url": "https://booksellingapp2.firebaseio.com",
+    "project_id": "booksellingapp2",
+    "storage_bucket": "booksellingapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407315892827:android:6404c6dcd02e7857",
+        "android_client_info": {
+          "package_name": "com.example.amrita.booksellingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407315892827-4h89tdop7s3f0o53d2teuq24222dg9r4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amrita.booksellingapp",
+            "certificate_hash": "205bcea443aad7826d18ac09ebe56c0e1642664b"
+          }
+        },
+        {
+          "client_id": "407315892827-qkij2kgdnjrco3o11cs8ulmk2v5d9518.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-DBW6Ll0f66U28ED3v16xCmiuozt4T9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407315892827-qkij2kgdnjrco3o11cs8ulmk2v5d9518.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

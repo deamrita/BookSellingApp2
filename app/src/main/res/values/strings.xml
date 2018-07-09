@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BookSellingApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="category">
+        <item>Select the category</item>
+        <item>Computer Science and Engineering</item>
+        <item>Information Technology</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Electronics and Telecommunication Engineering</item>
+        <item>Textile Technology</item>
+        <item>Electrical Engineering</item>
+        <item>Others</item>
+    </string-array>
+</resources>

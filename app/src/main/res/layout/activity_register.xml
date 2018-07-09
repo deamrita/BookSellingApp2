@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/colorPrimary">
+    <!--android:background="@drawable/background">-->
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:paddingTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittext4"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Enter Your Email ID"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edittext6"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"/>
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/button2"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Register"
+            android:textSize="25dp"
+            android:background="@drawable/buttonstyle"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
